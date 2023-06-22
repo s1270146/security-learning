@@ -22,6 +22,7 @@ def xor(a, b):
 
 plaintext = b'helloworld'
 S = KSA(b'testkey')
+# map() -> https://docs.python.org/3/library/functions.html#map
 ciphertext = bytes(map(xor, plaintext, PRGA(S)))
 print(ciphertext)
 plaintext = bytes(map(xor, ciphertext, PRGA(S)))
