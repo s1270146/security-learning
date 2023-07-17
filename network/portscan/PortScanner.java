@@ -1,3 +1,11 @@
+// ファイル名 PortScanner.java
+
+// 説明
+// 勉強用のポートスキャンをするコード
+
+// コマンド
+// java PortScanner [調査したいIPアドレス]
+
 import java.net.Socket;
 
 public class PortScanner {
