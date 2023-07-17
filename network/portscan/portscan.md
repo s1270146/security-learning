@@ -50,7 +50,7 @@
     - ポートが閉じていれば、「SYN+RSTパケット」を返す
 1. 接続する側は「SYN+ACKパケット」を受け取ったあとに、「ACKパケット」を返します。
 
-![スリーウェイハンドシェイク](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/570011/809f0be7-7d0e-311e-a222-41a8907be85a.png)
+![スリーウェイハンドシェイク](https://ascii.jp/img/2011/08/03/299394/l/5552425e1b858c1f.jpg)
 
 ### Java コード
 
